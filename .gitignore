@@ -4,7 +4,7 @@
 
 # Xcode
 #
-build/
+build
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -23,7 +23,7 @@ DerivedData
 
 # Android/IntelliJ
 #
-build/
+build
 .idea
 .gradle
 local.properties
@@ -31,13 +31,13 @@ local.properties
 
 # node.js
 #
-node_modules/
+node_modules
 npm-debug.log
 yarn-error.log
 
 # BUCK
-buck-out/
-\.buckd/
+buck-out
+\.buckd
 *.keystore
 !debug.keystore
 
@@ -56,7 +56,7 @@ buck-out/
 *.jsbundle
 
 # CocoaPods
-/ios/Pods/
+/ios/Pods
 
 package-lock.json*
 yarn.lock*

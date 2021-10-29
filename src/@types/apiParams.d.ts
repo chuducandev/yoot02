@@ -5,15 +5,22 @@ interface IParamsLogin {
 interface IParamsRegister {
   email: string;
   password: string;
-  retypepassword: string;
+  retypePassword: string;
   fullname: string;
   phone: string;
-  companyname: string;
-  companyaddress: string;
-  companyprovinceid: number;
-  companydistrictid: number;
-  taxcode: string;
+  companyName: string;
+  companyAddress: string;
+  companyProvinceId: number;
+  companyDistrictId: number;
+  taxCode: string;
 }
 interface IParamsForgetPassword {
   email: string;
+}
+interface IParamsGetProvinceSelection {
+  ishasrecruitment?: number;
+  iswithall?: number;
+}
+interface IParamsGetDistrictSelection {
+  provinceid: string | number,
 }

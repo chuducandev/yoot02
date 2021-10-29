@@ -26,6 +26,6 @@ export enum EFormtDate {
   paramsFormat = 'YYYY-MM-DD HH:mm:ss',
 }
 
-export const TransitionScreenOptions = {
-  ...TransitionPresets.SlideFromRightIOS, 
-};
+// export const TransitionScreenOptions = {
+//   ...TransitionPresets.SlideFromRightIOS, 
+// };

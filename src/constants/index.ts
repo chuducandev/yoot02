@@ -14,8 +14,10 @@ export enum EColors {
   colorHeaderCV1 = 'rgba(234, 234, 234, 1)',
   colorCurrentDay = 'rgba(255, 191, 67, 1)',
 }
-export enum EToken {
-  TokenJobs = 'asyncStorage@TOKEN_JOBS',
+export enum EAsyncStorageKey {
+  accessToken = 'access_token',
+  email = 'email',
+  password = 'password'
 }
 export const colorGradient = {
   greenGradient: ['rgba(139,255,165,1)', 'rgba(0,192,42,1)'],
